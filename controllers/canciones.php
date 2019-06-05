@@ -1,8 +1,10 @@
 <?php
 
-class Canciones extends YDatasetController {
+class Canciones extends YDatasetController
+{
 
-	function __construct() {
+	function __construct()
+	{
 		parent::__construct();
 		$this->setTitle('Canciones');
 
@@ -17,5 +19,4 @@ class Canciones extends YDatasetController {
 		$this->addField('can_categoria', array('label' => 'Categoría', 'rules' => 'required'));
 		$this->addSearch('can_categoria', 'Categorias');
 	}
-
 }

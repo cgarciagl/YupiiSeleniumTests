@@ -1,92 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://localhost/yupii" />
-<title>test insert</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="selenium.base" href="http://localhost/yupii" />
+	<title>test insert</title>
 </head>
+
 <body>
-<table cellpadding="1" cellspacing="1" border="1">
-<thead>
-<tr><td rowspan="1" colspan="3">test insert</td></tr>
-</thead><tbody>
-<!--Esta prueba inserta una nueva canción-->
-<tr>
-	<td>open</td>
-	<td>/yupii/</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>//button</td>
-	<td></td>
-</tr>
-<tr>
-	<td>selectWindow</td>
-	<td>null</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForElementPresent</td>
-	<td>id=can_titulo</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=can_titulo</td>
-	<td>UNA NUEVA</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=can_artista</td>
-	<td>EMINEM</td>
-</tr>
-<tr>
-	<td>waitForTextPresent</td>
-	<td>Buscando (EMINEM)</td>
-	<td></td>
-</tr>
-<tr>
-	<td>doubleClick</td>
-	<td>//div[2]/div/table/tbody/tr/td</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=can_categoria</td>
-	<td>E2</td>
-</tr>
-<tr>
-	<td>waitForVisible</td>
-	<td>//div[2]/button</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>//div[2]/button</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>css=input[type=&quot;text&quot;]</td>
-	<td>eminem</td>
-</tr>
-<tr>
-	<td>waitForTextNotPresent</td>
-	<td>Procesando...</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForTextPresent</td>
-	<td>Buscando (eminem)</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForText</td>
-	<td>//div[2]/div[2]/div</td>
-	<td>Mostrando desde 1 hasta 10 de 12 registros</td>
-</tr>
-</tbody></table>
+	<table cellpadding="1" cellspacing="1" border="1">
+		<thead>
+			<tr>
+				<td rowspan="1" colspan="3">test insert</td>
+			</tr>
+		</thead>
+		<tbody>
+			<!--Esta prueba inserta una nueva canción-->
+			<tr>
+				<td>open</td>
+				<td>/yupii/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>click</td>
+				<td>//button</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>selectWindow</td>
+				<td>null</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>waitForElementPresent</td>
+				<td>id=can_titulo</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>type</td>
+				<td>id=can_titulo</td>
+				<td>UNA NUEVA</td>
+			</tr>
+			<tr>
+				<td>type</td>
+				<td>id=can_artista</td>
+				<td>EMINEM</td>
+			</tr>
+			<tr>
+				<td>waitForTextPresent</td>
+				<td>Buscando (EMINEM)</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>doubleClick</td>
+				<td>//div[2]/div/table/tbody/tr/td</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>type</td>
+				<td>id=can_categoria</td>
+				<td>E2</td>
+			</tr>
+			<tr>
+				<td>waitForVisible</td>
+				<td>//div[2]/button</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>click</td>
+				<td>//div[2]/button</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>type</td>
+				<td>css=input[type=&quot;text&quot;]</td>
+				<td>eminem</td>
+			</tr>
+			<tr>
+				<td>waitForTextNotPresent</td>
+				<td>Procesando...</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>waitForTextPresent</td>
+				<td>Buscando (eminem)</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>waitForText</td>
+				<td>//div[2]/div[2]/div</td>
+				<td>Mostrando desde 1 hasta 10 de 12 registros</td>
+			</tr>
+		</tbody>
+	</table>
 </body>
+
 </html>

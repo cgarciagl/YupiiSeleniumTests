@@ -1,12 +1,15 @@
 <?php
 
-class InitTest extends CI_Controller {
+class InitTest extends CI_Controller
+{
 
-	function __construct() {
+	function __construct()
+	{
 		parent::__construct();
 	}
 
-	function index() {
+	function index()
+	{
 		$sql = file_get_contents('./test.sql');
 		foreach (explode(";\n", $sql) as $sql) {
 			$sql = trim($sql);
@@ -17,7 +20,8 @@ class InitTest extends CI_Controller {
 		echo "<div>Archivo Restaurado</div>";
 	}
 
-	function testemb() {
+	function testemb()
+	{
 		$this->load->view('template_for_emb', Null);
 	}
 }
